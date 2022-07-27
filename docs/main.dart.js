@@ -21680,32 +21680,32 @@ if(s===r)return!0
 return B.b.aa(a,r)===47},
 U8(){var s=0,r=A.N(t.z),q,p,o,n
 var $async$U8=A.O(function(a,b){if(a===1)return A.K(b,r)
-while(true)switch(s){case 0:n=$.aw5()
-n=n==null?null:n.getAttribute("href")
-if(n==null)A.P(A.br("Please add a <base> element to your index.html"))
-if(!J.awY(n,"/"))A.P(A.br('The base href has to end with a "/" to work correctly'))
-q=$.awy()
-q.href=n
-p=q.pathname
-if(p==null)p=""
-n=new A.Jv(A.aGI(p.length===0||p[0]==="/"?p:"/"+p),B.xV)
-o={getPath:A.fu(n.gF0(n)),getState:A.fu(n.gF5(n)),addPopStateListener:A.fu(n.gMd(n)),prepareExternalUrl:A.fu(n.gad6(n)),pushState:A.fu(n.gPF(n)),replaceState:A.fu(n.gPX(n)),go:A.fu(n.gF7(n))}
-o=o
-self._flutter_web_set_location_strategy.$1(o)
-if($.D==null)A.as8()
-n=$.D
-n.toString
-$.aly=n;++n.x$
+while(true)switch(s){case 0:if($.D==null)A.as8()
+q=$.D
+q.toString
+$.aly=q;++q.x$
+q=$.aw5()
+q=q==null?null:q.getAttribute("href")
+if(q==null)A.P(A.br("Please add a <base> element to your index.html"))
+if(!J.awY(q,"/"))A.P(A.br('The base href has to end with a "/" to work correctly'))
+p=$.awy()
+p.href=q
+o=p.pathname
+if(o==null)o=""
+q=new A.Jv(A.aGI(o.length===0||o[0]==="/"?o:"/"+o),B.xV)
+n={getPath:A.fu(q.gF0(q)),getState:A.fu(q.gF5(q)),addPopStateListener:A.fu(q.gMd(q)),prepareExternalUrl:A.fu(q.gad6(q)),pushState:A.fu(q.gPF(q)),replaceState:A.fu(q.gPX(q)),go:A.fu(q.gF7(q))}
+n=n
+self._flutter_web_set_location_strategy.$1(n)
 s=2
 return A.R(A.ab3(A.b([B.B2,B.B3],t.UW)),$async$U8)
-case 2:n=A.axN()
-q=$.a8
-if(q==null)q=$.a8=A.b8().P(t.I).b
-q.ax.c=!1
+case 2:q=A.axN()
+p=$.a8
+if(p==null)p=$.a8=A.b8().P(t.I).b
+p.ax.c=!1
 if($.D==null)A.as8()
-q=$.D
-q.Rn(new A.yN(n,new A.Fj(null),null))
-q.Fh()
+p=$.D
+p.Rn(new A.yN(q,new A.Fj(null),null))
+p.Fh()
 return A.L(null,r)}})
 return A.M($async$U8,r)},
 aGf(a){var s,r,q,p
